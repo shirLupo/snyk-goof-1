@@ -31,6 +31,8 @@ var cons = require('consolidate');
 var app = express();
 var routes = require('./routes');
 
+var password = "12Xnvi983_g"
+
 // all environments
 app.set('port', process.env.PORT || 3001);
 app.engine('ejs', ejsEngine);
